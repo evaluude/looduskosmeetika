@@ -1,0 +1,129 @@
+
+.jumbotron{
+    background-image: url('harjutus_pildid/banneroige.png');
+    background-size:auto 100%;
+    object-fit: fill;
+   
+  
+}
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer{
+    padding:30px 10px;
+}
+footer .col :nth-child(1){
+    margin-right:15px;
+}
+footer ul li{
+    padding: 2px 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.row h3{
+    color: rgba(28, 27, 27, 067); 
+    font-weight: 800; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.kontaktandmed li p{
+    color:rgba(28, 27, 27, 067);
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size:15px;
+}
+
+  
+.fab {
+    font-size: 40px;
+    width:100%;
+    
+  }
+  .btn-floating {
+    width: 60px; 
+    height: 60px; 
+    padding: 3;
+    margin: 0.25rem;
+}
+  .btn-floating i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#meist .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#meist p {
+    
+    line-height: 30px;
+    letter-spacing: 0.03cm;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  
+  @media only screen and (min-width: 992px) {
+    .carousel-item img {
+      height: 600px;
+    }}
+ @media only screen and (max-width: 481px) {
+        .carousel-item img {
+          height: 400px;
+        }}
+      
+#carouselExampleIndicators{
+    overflow:hidden;
+}
+
+
+
+  
+
+  
+  
